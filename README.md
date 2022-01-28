@@ -18,8 +18,8 @@ Build a clean but basic UI that:
 * Includes in each result: Artwork title, picture, artist name, and where to find it in the museum (department).
 
 ### Details
-* This task should only take a few hours. No need to go overboard!
-* It's up to you which tools and libraries to use, and how to build the UI. Again, simplicity goes a long way.
+* This task should be doable within an hour or two. No need to go overboard!
+* It's up to you which tools and libraries to use, and how to build the UI. Again, functionality/usability is key here, and simplicity goes a long way.
 
 ## Deliverable:
 * A zip file containing the git repository for your project.
