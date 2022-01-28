@@ -1,21 +1,26 @@
 # FrontEndEval
-໒( ͡ᵔ ▾ ͡ᵔ )७ Simple Evaluation Task for Front-End Engineers
+Evaluation Task for Front-End Engineers
 
 ## Task
-Build a small, standalone web app using the language/framework of your choice that, given an API token, will display a list of data from the [PerformLine API](https://api.performline.com/).
+Use the [Met API](https://metmuseum.github.io/) to build a UI allowing users to search for artworks with different criteria.
 
-NOTE:  This is a reporting API and was not design specifically to implement a UI on top of, so we understand if there are a few more round trips and performance trade-offs involved here.
+## The API
+The Met hosts a public API of its works. See link above for more info. Some example queries are:
+* Get details for one object (artwork): [https://collectionapi.metmuseum.org/public/collection/v1/objects/437406](https://collectionapi.metmuseum.org/public/collection/v1/objects/437406)
+* Query objects by a keyword found in the object data, and another field: [https://collectionapi.metmuseum.org/public/collection/v1/search?q=sunflowers&isOnView=true](https://collectionapi.metmuseum.org/public/collection/v1/search?q=sunflowers&isOnView=true)
 
-## Details
-You will be given an API Token with access to the Zephyr _Company_, who has several _Brands_ associated with it.
+## Requirements
+Build a clean but basic UI that:
+* Offers users the following criteria to search artwork, based on a keyword they’ve entered (”portrait,” “flowers,” etc):
+    * Century created (1800s, 1300s, etc)
+    * Whether the work is in the public domain
+* Displays first 5 results.
+* Includes in each result: Artwork title, picture, artist name, and where to find it in the museum (department).
 
-Each _Brand_ is setup to contain _scores_ and _observations_ for Web pages that are further associated with a _Campaign_.
-
-Your app should be able to:
-* Toggle between brands avaialble to the Zephyr _Company_.
-* Display a paginated list of all web pages for that _Brand_ by _Id_ showing the values of _Score_, _Url_ and _LastScored_ date.
-* The app should be able to filter the list by _Campaign_ or show all.
+### Details
+* This task should only take a few hours. No need to go overboard!
+* It's up to you which tools and libraries to use, and how to build the UI. Again, simplicity goes a long way.
 
 ## Deliverable:
-* A zip file containing the git repository for your project to show commit history.
-* Instructions for running / hosting the application.  It should be able to work in a Linux environment.
+* A zip file containing the git repository for your project.
+* Instructions for running / hosting the application. It should be able to work in a Linux environment.
