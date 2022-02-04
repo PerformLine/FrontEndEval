@@ -10,7 +10,7 @@ The Met hosts a public API of its works. See link above for more info. Some exam
 * Query objects by a keyword found in the object data, and another field: [https://collectionapi.metmuseum.org/public/collection/v1/search?q=sunflowers&isOnView=true](https://collectionapi.metmuseum.org/public/collection/v1/search?q=sunflowers&isOnView=true)
 
 ## Requirements
-* Build a clean UI that has three fields to search/filter artwork:
+* Build a clean & usable UI that has three fields to search/filter artwork:
     * (Required) Keyword field where users can search art based on keyword(s) (”portrait,” “flowers,” etc)
     * Century created (1800s, 1300s, etc)
     * Whether the work is in the public domain
@@ -18,8 +18,8 @@ The Met hosts a public API of its works. See link above for more info. Some exam
 * Includes in each result: Artwork title, picture, artist name, and where to find it in the museum (department).
 
 ### Details
-* This task should be doable within an hour or two. No need to go overboard!
-* It's up to you which tools and libraries to use, and how to build the UI. Again, functionality/usability is key here.
+* This task should be doable within a couple hours. It should display JS competency and general UX sensibilities.
+* It's up to you which tools and libraries to use, and how to build the UI. Again, functionality/usability is key.
 
 ## Deliverable:
 * A zip file containing the git repository for your project.
